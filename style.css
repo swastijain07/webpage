@@ -1,0 +1,200 @@
+body {
+margin: 0;
+padding: 0;
+}
+#top-strip {
+background-color: #c0392b;
+color: white;
+text-align: center;
+padding: 10px;
+}
+#navbar {
+background-color: white;
+border-bottom: 1px solid #ddd;
+padding: 15px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+#logo-img {
+width: 40px;
+height: 40px;
+margin-right: 10px;
+}
+#logo {
+color: #0d3b66;
+}
+#nav-links a {
+color: #0d3b66;
+margin-left: 15px;
+text-decoration: none;
+}
+#home {
+background-color: #eaf6f6;
+padding: 40px;
+text-align: center;
+}
+#hero-img {
+width: 100%;
+max-width: 600px;
+margin-bottom: 20px;
+}
+#hero-tag {
+background-color: #d9f2e6;
+color: #14a38b;
+display: inline-block;
+padding: 5px 15px;
+border-radius: 20px;
+}
+#home h1 {
+color: #0d3b66;
+}
+#book-btn {
+background-color: #14a38b;
+color: white;
+padding: 10px 20px;
+border: none;
+text-decoration: none;
+}
+#about {
+padding: 40px;
+text-align: center;
+max-width: 700px;
+margin: 0 auto;
+}
+#about h2 {
+color: #0d3b66;
+}
+#services {
+padding: 20px;
+text-align: center;
+}
+#services h2 {
+color: #0d3b66;
+}
+#card-row {
+display: flex;
+}
+#card1 {
+background-color: #fce4e4;
+border: 1px solid #f5c6c6;
+padding: 20px;
+margin: 10px;
+flex: 1;
+text-align: left;
+}
+#card2 {
+background-color: #e0f2f1;
+border: 1px solid #b2dfdb;
+padding: 20px;
+margin: 10px;
+flex: 1;
+text-align: left;
+}
+#card3 {
+background-color: #e3f2fd;
+border: 1px solid #bbdefb;
+padding: 20px;
+margin: 10px;
+flex: 1;
+text-align: left;
+}
+#card4 {
+background-color: #e8f5e9;
+border: 1px solid #c8e6c9;
+padding: 20px;
+margin: 10px;
+flex: 1;
+text-align: left;
+}
+.card-img {
+width: 40px;
+height: 40px;
+margin-bottom: 10px;
+}
+#card1 h3, #card2 h3, #card3 h3, #card4 h3 {
+color: #0d3b66;
+}
+#doctors {
+padding: 20px;
+text-align: center;
+background-color: #f4f8fb;
+}
+#doctors h2 {
+color: #0d3b66;
+}
+#doctor-row {
+display: flex;
+}
+#doc1, #doc2, #doc3, #doc4 {
+background-color: white;
+border: 1px solid #ddd;
+padding: 20px;
+margin: 10px;
+flex: 1;
+}
+.doc-img {
+width: 80px;
+height: 80px;
+border-radius: 50%;
+margin-bottom: 10px;
+}
+#doc1 h3, #doc2 h3, #doc3 h3, #doc4 h3 {
+color: #0d3b66;
+}
+#appointment {
+display: flex;
+padding: 20px;
+}
+#form-box {
+border: 1px solid #ddd;
+padding: 20px;
+margin: 10px;
+flex: 1;
+}
+#form-box h2 {
+color: #0d3b66;
+}
+label {
+display: block;
+margin-top: 10px;
+}
+#name-input, #email-input, #phone-input, #dept-select, #date-input {
+width: 100%;
+padding: 8px;
+border: 1px solid #ccc;
+margin-top: 5px;
+}
+#submit-btn {
+background-color: #34495e;
+color: white;
+padding: 10px;
+text-align: center;
+margin-top: 15px;
+}
+#info-box {
+border: 1px solid #ddd;
+padding: 20px;
+margin: 10px;
+flex: 1;
+}
+#info-box h2 {
+color: #0d3b66;
+}
+#info-box h4 {
+color: #14a38b;
+margin-top: 15px;
+}
+#footer {
+background-color: #0d3b66;
+color: white;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+}
+#footer-col1, #footer-col2, #footer-col3 {
+padding: 10px;
+}
+#footer-logo {
+font-size: 18px;
+}

@@ -1,85 +1,128 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>CityCare Hospital</title>
+<title>City Care Hospital</title>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
+<div id="top-strip">
 <p>EMERGENCY HOTLINE: 1-800-CITYCARE (Available 24/7)</p>
-
-<p>
-<b>CityCare Hospital</b>
-<a href="#">Home</a>
-<a href="#">Departments</a>
-<a href="#">Doctors</a>
-<a href="#">About Us</a>
-<a href="#">Contact</a>
-<button>Book Appointment</button>
-</p>
-
+</div>
+<div id="navbar">
+<img src="images/WhatsApp Image 2026-08-22 at 11.20.42 PM (2).jpeg" id="logo-img">
+<div id="logo">City Care Hospital</div>
+<div id="nav-links">
+<a href="#home">Home</a>
+<a href="#about">About Us</a>
+<a href="#services">Services</a>
+<a href="#doctors">Doctors</a>
+<a href="#appointment">Appointment</a>
+</div>
+</div>
+<div id="home">
+<img src="images/WhatsApp Image 2026-08-23 at 12.10.20 AM.jpeg" id="hero-img">
+<p id="hero-tag">City Care Hospital</p>
 <h1>Compassionate Care for Your Health</h1>
 <p>Trusted healthcare for you and your family. Expert doctors, modern facilities, compassionate service.</p>
-<button>Learn More</button>
-
+<a href="#appointment" id="book-btn">Learn More</a>
+</div>
+<div id="about">
+<h2>About Us</h2>
+<p>City Care Hospital has been serving the community with quality healthcare for over 15 years. Our team of expert doctors and modern facilities ensure you get the best treatment with care and compassion.</p>
+</div>
+<div id="services">
 <h2>Medical Departments</h2>
-
+<div id="card-row">
+<div id="card1">
+<img src="images/WhatsApp Image 2026-08-22 at 11.20.41 PM.jpeg" class="card-img">
 <h3>Cardiology</h3>
-<p>Heart care from our expert doctors.</p>
-<a href="#">Learn More</a>
-
+<p>Expert heart care with advanced diagnostic tools.</p>
+</div>
+<div id="card2">
+<img src="images/WhatsApp Image 2026-08-22 at 11.20.42 PM.jpeg" class="card-img">
 <h3>Dental Care</h3>
-<p>Dental treatment from our dental team.</p>
-<a href="#">Learn More</a>
-
+<p>Complete dental treatment for healthy smiles.</p>
+</div>
+<div id="card3">
+<img src="images/WhatsApp Image 2026-08-22 at 11.20.41 PM (1).jpeg" class="card-img">
 <h3>Eye Care</h3>
-<p>Eye care for all your vision needs.</p>
-<a href="#">Learn More</a>
-
+<p>Comprehensive eye checkups and vision care.</p>
+</div>
+<div id="card4">
+<img src="images/WhatsApp Image 2026-08-22 at 11.32.21 PM.jpeg" class="card-img">
 <h3>General Clinic</h3>
-<p>Everyday checkups and healthcare.</p>
-<a href="#">Learn More</a>
-
+<p>Routine checkups and general health treatment.</p>
+</div>
+</div>
+</div>
+<div id="doctors">
+<h2>Meet Our Doctors</h2>
+<div id="doctor-row">
+<div id="doc1">
+<img src="images/rahul.jpeg" class="doc-img">
+<h3>Dr. Rahul Verma</h3>
+<p>Cardiologist</p>
+</div>
+<div id="doc2">
+<img src="images/images.jpeg" class="doc-img">
+<h3>Dr. Priya Sharma</h3>
+<p>Dentist</p>
+</div>
+<div id="doc3">
+<img src="images/amit.jpeg" class="doc-img">
+<h3>Dr. Amit Patel</h3>
+<p>Eye Specialist</p>
+</div>
+<div id="doc4">
+<img src="images/17805551303935.jpg" class="doc-img">
+<h3>Dr. Neha Jain</h3>
+<p>General Physician</p>
+</div>
+</div>
+</div>
+<div id="appointment">
+<div id="form-box">
 <h2>Book an Appointment</h2>
-
-<p>Full Name</p>
-<input type="text">
-
-<p>Email</p>
-<input type="text">
-
-<p>Phone</p>
-<input type="text">
-
-<p>Select Department</p>
-<select>
+<label>Full Name</label>
+<input type="text" id="name-input">
+<label>Email</label>
+<input type="text" id="email-input">
+<label>Phone</label>
+<input type="text" id="phone-input">
+<label>Select Department</label>
+<select id="dept-select">
 <option>Cardiology</option>
 <option>Dental Care</option>
 <option>Eye Care</option>
-<option>General Clinic</option>
 </select>
-
-<p>Date</p>
-<input type="date">
-
-<button>Schedule Now</button>
-
+<label>Date</label>
+<input type="date" id="date-input">
+<div id="submit-btn">Schedule Now</div>
+</div>
+<div id="info-box">
 <h2>Hospital Information</h2>
-
-<b>Our Location</b>
-<p>1253 Wienser, Address, CA 32305</p>
-
-<b>Working Hours</b>
-<p>Mon-Sat: 8AM-9PM<br>
-Sun: Emergency Only</p>
-
-<b>General Inquiries</b>
-<p>(555) 553-8868</p>
-
-<hr>
-
-<p><b>CityCare Hospital</b></p>
-<p>&copy; 2026 CityCare Hospital. All Rights Reserved.</p>
-
+<h4>Our Location</h4>
+<p>1235 Wiensat, Address, CA 32305</p>
+<h4>Working Hours</h4>
+<p>Mon-Sat: 8AM-8PM</p>
+<p>Sun: Emergency Only</p>
+<h4>General Inquiries</h4>
+<p>(265) 555-8568</p>
+</div>
+</div>
+<div id="footer">
+<div id="footer-col1">
+<div id="footer-logo">City Care Hospital</div>
+</div>
+<div id="footer-col2">
+<h4>Quick Links</h4>
+<p>About</p>
+<p>Doctors</p>
+<p>Services</p>
+</div>
+<div id="footer-col3">
+<p>2024 City Care Hospital. All Rights Reserved.</p>
+</div>
+</div>
 </body>
 </html>
